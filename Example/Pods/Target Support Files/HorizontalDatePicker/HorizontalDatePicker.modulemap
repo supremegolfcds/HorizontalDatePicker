@@ -1,0 +1,6 @@
+framework module HorizontalDatePicker {
+  umbrella header "HorizontalDatePicker-umbrella.h"
+
+  export *
+  module * { export * }
+}
