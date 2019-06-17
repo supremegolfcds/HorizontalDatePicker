@@ -52,7 +52,7 @@
 		D4E93D4F22B8062B00333E81 /* LGHorizontalLinearFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHorizontalLinearFlowLayout.m; sourceTree = "<group>"; };
 		D4E93D5022B8062C00333E81 /* LGHorizontalLinearFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHorizontalLinearFlowLayout.h; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E737476F90BA9AEB8BA5E2F36A4F355D /* HorizontalDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HorizontalDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E737476F90BA9AEB8BA5E2F36A4F355D /* SupremeGolfHorizontalDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = SupremeGolfHorizontalDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F29FE3B18ED30624BAEB8A3EBBBDA791 /* Pods-HorizontalDatePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HorizontalDatePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F32F91A0A73F62E03A1D0AD38A097E61 /* HorizontalDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HorizontalDatePicker-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,7 +124,7 @@
 		79D6B4F362B565992D046E0DAB3CD64B /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E737476F90BA9AEB8BA5E2F36A4F355D /* HorizontalDatePicker.podspec */,
+				E737476F90BA9AEB8BA5E2F36A4F355D /* SupremeGolfHorizontalDatePicker.podspec */,
 				57D3ED83DDE3ED1CA19A39858B6F2869 /* LICENSE */,
 				6E5E463B63694D63E1F7269CA41CC4D6 /* README.md */,
 			);

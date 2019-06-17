@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'HorizontalDatePicker'
+  s.name             = 'SupremeGolfHorizontalDatePicker'
   s.version          = '0.1.4'
   s.summary          = 'HorizontalDatePicker is library to support SupremeGolf Project.'
 
