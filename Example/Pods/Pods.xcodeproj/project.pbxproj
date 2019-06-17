@@ -14,6 +14,8 @@
 		8DAA21AEED313134E8B2C83A5175A9C1 /* Pods-HorizontalDatePicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F29FE3B18ED30624BAEB8A3EBBBDA791 /* Pods-HorizontalDatePicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		954BD168D7A57711F5083C181B846791 /* HorizontalDatePicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F32F91A0A73F62E03A1D0AD38A097E61 /* HorizontalDatePicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B61F4489271F1A40DB6488749B99872C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */; };
+		D4E93D5122B8062C00333E81 /* LGHorizontalLinearFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D4E93D4F22B8062B00333E81 /* LGHorizontalLinearFlowLayout.m */; };
+		D4E93D5222B8062C00333E81 /* LGHorizontalLinearFlowLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = D4E93D5022B8062C00333E81 /* LGHorizontalLinearFlowLayout.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,21 +36,23 @@
 		3FC0E9F0C240DF5AE767FF8277D0FC2B /* HorizontalDatePicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HorizontalDatePicker.modulemap; sourceTree = "<group>"; };
 		407E446924463D50E854A7E38A51B338 /* HorizontalDatePicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HorizontalDatePicker-dummy.m"; sourceTree = "<group>"; };
 		46DA234E3BB7AD5B6CB88C70CACC925F /* Pods-HorizontalDatePicker_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalDatePicker_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		5530C05C4F9BEBD960DF5DD8BFD99BCD /* HorizontalDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HorizontalDatePicker.framework; path = HorizontalDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		57D3ED83DDE3ED1CA19A39858B6F2869 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5530C05C4F9BEBD960DF5DD8BFD99BCD /* HorizontalDatePicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HorizontalDatePicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57D3ED83DDE3ED1CA19A39858B6F2869 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		678D6C3BF8F6BCC3D7D5719B3E83CE9A /* Pods-HorizontalDatePicker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HorizontalDatePicker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		6E5E463B63694D63E1F7269CA41CC4D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6E5E463B63694D63E1F7269CA41CC4D6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6FB7CC1B91219062741364B46C06BE2B /* Pods-HorizontalDatePicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HorizontalDatePicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		7A0FF4B4E4FB9FD1A3180B892BFDDFC6 /* Pods-HorizontalDatePicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HorizontalDatePicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		99B3FA017EAC4A6B33DD36A5003BF3F3 /* Pods-HorizontalDatePicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HorizontalDatePicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		99EA286286A92A3612BDFDE94CC5103A /* Pods-HorizontalDatePicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HorizontalDatePicker_Tests.modulemap"; sourceTree = "<group>"; };
 		A0B57CB35CB603195CA71471016AF09B /* HorizontalDatePicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HorizontalDatePicker.xcconfig; sourceTree = "<group>"; };
 		A4B4BAB6797449876AD39A5172C4277F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDD454D8CDFFA8FEA61EAC937C3CB9A1 /* HorizontalDatePicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HorizontalDatePicker-prefix.pch"; sourceTree = "<group>"; };
-		D2FD608D8A3948C6797D0F3EE72308E5 /* Pods_HorizontalDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HorizontalDatePicker_Tests.framework; path = "Pods-HorizontalDatePicker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2FD608D8A3948C6797D0F3EE72308E5 /* Pods_HorizontalDatePicker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HorizontalDatePicker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4E93D4F22B8062B00333E81 /* LGHorizontalLinearFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGHorizontalLinearFlowLayout.m; sourceTree = "<group>"; };
+		D4E93D5022B8062C00333E81 /* LGHorizontalLinearFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGHorizontalLinearFlowLayout.h; sourceTree = "<group>"; };
 		D6DFF15000AFE2A371BF499E7AFDA808 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E737476F90BA9AEB8BA5E2F36A4F355D /* HorizontalDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HorizontalDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E737476F90BA9AEB8BA5E2F36A4F355D /* HorizontalDatePicker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = HorizontalDatePicker.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F29FE3B18ED30624BAEB8A3EBBBDA791 /* Pods-HorizontalDatePicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HorizontalDatePicker_Tests-umbrella.h"; sourceTree = "<group>"; };
 		F32F91A0A73F62E03A1D0AD38A097E61 /* HorizontalDatePicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HorizontalDatePicker-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +97,8 @@
 		46B1D51A98679F475D7CDC574D23F1A8 /* HorizontalDatePicker */ = {
 			isa = PBXGroup;
 			children = (
+				D4E93D5022B8062C00333E81 /* LGHorizontalLinearFlowLayout.h */,
+				D4E93D4F22B8062B00333E81 /* LGHorizontalLinearFlowLayout.m */,
 				17E6DE9133224314B5B1E7EF672BCF89 /* ReplaceMe.m */,
 				79D6B4F362B565992D046E0DAB3CD64B /* Pod */,
 				6C086558422B2715FBF3568C0357B45D /* Support Files */,
@@ -185,6 +191,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E93D5222B8062C00333E81 /* LGHorizontalLinearFlowLayout.h in Headers */,
 				954BD168D7A57711F5083C181B846791 /* HorizontalDatePicker-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E93D5122B8062C00333E81 /* LGHorizontalLinearFlowLayout.m in Sources */,
 				7604FD003D9AE5313FBCF18E344A9FB0 /* HorizontalDatePicker-dummy.m in Sources */,
 				678F13793F5D1B8ADE6A37F0CAC371D5 /* ReplaceMe.m in Sources */,
 			);
@@ -432,8 +440,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
