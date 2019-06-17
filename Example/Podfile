@@ -1,0 +1,6 @@
+use_frameworks!
+target 'HorizontalDatePicker_Tests' do
+  pod 'HorizontalDatePicker', :path => '../'
+  
+  
+end
